@@ -15,8 +15,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DFSgwb/config-repo
+          uri: https://github.com/DFSgwb/config-repo.git
           default-label: main
-          timeout: 5
+          timeout: 2000
           clone-on-start: true
           force-pull: true
